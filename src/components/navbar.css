@@ -1,0 +1,22 @@
+h1{
+    padding-top: 10px;
+    display: inline-block;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+}
+
+li{
+    width: 150px;
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+    transition: ease-in-out .2s;
+}
+
+li:hover{
+    background-color: rgba(240, 248, 255, 0.128);
+}
